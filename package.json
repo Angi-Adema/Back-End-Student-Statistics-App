@@ -1,0 +1,30 @@
+{
+  "name": "back-end-student-statistics-app",
+  "version": "1.0.0",
+  "description": "Back-end project using Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angi-Adema/Back-End-Student-Statistics-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angi-Adema/Back-End-Student-Statistics-App/issues"
+  },
+  "homepage": "https://github.com/Angi-Adema/Back-End-Student-Statistics-App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
